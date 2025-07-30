@@ -9,6 +9,10 @@
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -17,12 +21,29 @@
 <body>
 
 
-  You’ve used 815 GB of your storage
+  <div class="progress-container">
+    
+    <div class="progress-text">
+      <p>You’ve used <strong>815 GB</strong>of your storage</p>
+    </div>
 
-  185 GB Left
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="progress-labels">
+      <span>0 GB</span>
+      <span>1000 GB</span>
+    </div>
+
+  </div>
+ 
+ 
+
+
+
+
   
-  0 GB
-  1000 GB
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
