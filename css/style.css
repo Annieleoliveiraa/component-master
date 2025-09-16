@@ -1,56 +1,77 @@
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    background-color:  hsl(229, 57%, 11%);
+ padding: 0;
+ margin: 0;
+ font-family: "Raleway", sans-serif;
+ background-color:  hsl(229, 57%, 11%); 
+}
+
+body {
+ background-image: url(../images/bg-desktop.png);
+ background-repeat: no-repeat;
 }
 
 p {
-    color: hsl(243, 100%, 93%);
+  color: hsl(243, 100%, 93%);
 }
 
 span {
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 16px;
+ color: #ffffff;
+ font-weight: 600;
+ font-size: 16px;
 
-    margin-top: 8px;
+ margin-top: 8px;
 }
 
 .progress-container {
-   max-width: 500px;
 
-   margin-left: auto;
-   margin-right: auto;
+ background-color: hsl(228, 56%, 26%);
+ color: hsl(229, 57%, 11%);
+ max-width: 500px;
 
-   margin-top: 180px;
+ margin-left: auto;
+ margin-right: auto;
 
-   background-color: hsl(228, 56%, 26%);
-   padding: 50px;
-   border-radius: 11px;
+ margin-top: 180px;
+ margin-bottom: 20px;
+
+
+ padding: 50px;
+ border-radius: 11px;
 }
 
 .progress-text {
-    margin-bottom: 10px;
-    font-size: 16px;
+ margin-bottom: 10px;
+ font-size: 16px;
 }
 
 .progress-bar {
-    position: relative;
-    width: 100%;
-    height: 16px;
-    border-radius: 20px;
-    background-color: #1a1a3d;
-    overflow: hidden;
+ position: relative;
+ width: 100%;
+ height: 16px;
+ border-radius: 20px;
+ overflow: hidden;
+ border: 3px solid;
 }
 
 .progress-fill {
-    width: 75%;
-    height: 100%;
-    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-    border-radius: 20px;
-    border: #ffffff;
+ width: 75%;
+ height: 100%;
+ background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+ border-radius: 20px;
+ border: #ffffff;
+}
+
+.progress-circle {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+
+    border-radius: 50%;
+    position: absolute;
+
+    margin-left: 22.5rem;
+    margin-top: 2px;
 }
 
 .progress-labels {
