@@ -37,6 +37,7 @@ span {
 
  margin-top: 80px;
  margin-bottom: 20px;
+ margin-right: 140px;
 
 
  padding: 50px;
@@ -84,4 +85,77 @@ span {
  font-size: 14px;
  margin-top: 6px;
  color:  #bfbfbf;
+}
+
+
+
+.container-card {
+  width: 260px;
+  height: 120px;
+  
+  background-color: hsl(228, 56%, 26%);
+
+  border-radius: 10px;
+  border-top-right-radius: 90px;
+
+  padding: 40px;
+
+  margin-left: 250px;
+  margin-top: -222px;
+}
+
+.container-card img {
+  width: 140px;
+}
+
+.container-documents {
+  display: flex;
+  gap: 15px;
+
+  margin-top: 14px;
+}
+
+.card-document {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card-document img {
+  width: 20px;
+  height: 18px;
+
+  margin-top: 2px;
+}
+
+.card-folder {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card-folder img {
+  width: 20px;
+  height: 18px;
+
+  margin-top: 2px;
+}
+
+.card-upload {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card-upload img {
+  width: 20px;
+  height: 18px;
+
+  margin-top: 2px;
 }
