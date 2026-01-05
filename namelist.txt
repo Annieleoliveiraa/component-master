@@ -1,9 +1,0 @@
-Lista dos nomes para cadastrar no sistema.
-
-Pedro
-Maria 
-Joana
-Gustavo 
-Mariana 
-Clara 
-Enzo 
